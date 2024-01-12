@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Marriage Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="gradientContainer">
+        <h2>Love Marriage Predictor</h2>
+        <form onsubmit="return false;">
+            <div class="input-container">
+                <p>Enter Your Date of Birth</p>
+                <div class="input-date">
+                    <input type="number" id="day" placeholder="MM" min="1" max="31" required>
+                    <input type="number" id="month" placeholder="MM" min="1" max="12" required>
+                    <input type="number" id="year" placeholder="YYYY" min="1950" max=2024 required>
+                </div>
+            </div>
+            <div class="button-container">
+                <button type="submit" id="check">Check Prediction</button>
+                <button type="reset" id="reset">Clear</button>
+            </div>
+            <div class="msg-container">
+                <p><marquee behavior="slide" direction="left" id="msg"></marquee></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

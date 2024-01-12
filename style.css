@@ -140,7 +140,7 @@ p {
 }
 
 #msg {
-    animation: runningText 10s linear infinite;
+    animation: runningText 5s linear infinite;
 }
 
 @keyframes runningText {
@@ -177,6 +177,9 @@ p {
     }
 
     button {
+        width: 100%;
+    }
+    #msg{
         width: 100%;
     }
 }

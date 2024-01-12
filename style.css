@@ -205,7 +205,7 @@ footer p:hover {
         width: 100%;
     }
     #msg{
-        width: 100%;
+        width: 100vw;
         font-size: 10px;
     }
 }

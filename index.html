@@ -10,7 +10,12 @@
 
 <body>
     <div class="container" id="gradientContainer">
-        <h2>Love Marriage Predictor</h2>
+        <div class="details">
+            <a href="#">
+                <img src="img.jpg" alt="logo">
+            </a>
+            <h2>Love Marriage Predictor</h2>
+        </div>
         <form onsubmit="return false;">
             <div class="input-container">
                 <p>Enter Your Date of Birth</p>
@@ -25,10 +30,17 @@
                 <button type="reset" id="reset">Clear</button>
             </div>
             <div class="msg-container">
-                <p><marquee behavior="slide" direction="left" id="msg"></marquee></p>
+
+                <p id="msg"></p>
+
             </div>
         </form>
     </div>
+
+    <footer>
+        <p>This application is created solely for entertainment purposes. It is not intended to make or imply any predictions about the future or to interfere with religious or cultural beliefs. Please enjoy it in a lighthearted manner.</p>
+        <p>-Developed by Ashish Misal </p>
+    </footer>
 
     <script src="app.js"></script>
 </body>

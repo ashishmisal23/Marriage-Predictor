@@ -36,7 +36,7 @@ function handlePrediction() {
     if (isValidDate(day, month, year)) {
         const queenNumber = calculateQueenNumber(day, month, year);
         const predictionMessage = checkMarriagePrediction(queenNumber);
-        msg.textContent = `${predictionMessage}`;
+        openPopup(predictionMessage);
 
     } else {
         msg.textContent = "Please enter valid date values.";
@@ -81,3 +81,25 @@ container.addEventListener("mousemove", function (event) {
 
     container.style.background = `linear-gradient(${gradientDirection}deg, #240200 0, #00d4ff 48%, #f626e4 100%)`;
 });
+
+//POPUP MESSAGE
+function openPopup(message) {
+    const popup = document.getElementById('customPopup');
+
+    // Set the message
+    popup.querySelector('#popupMessage').textContent = message;
+
+    // Show the popup
+    popup.style.display = 'block';
+
+    
+}
+
+
+function closePopup() {
+    const popup = document.getElementById('customPopup');
+    
+
+    // Hide the popup
+    popup.style.display = 'none';
+}

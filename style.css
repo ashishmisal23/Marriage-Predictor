@@ -217,4 +217,15 @@ footer p:hover {
     button[type=reset] {
         margin-top: 0; /* Reset margin-top for reset button on smaller screens */
     }
+
+    .popup{
+        height: 50%;
+        width: 50%;
+    }
+
+    .popup-content {
+    font-size: 10px;
+    }
+
+
 }

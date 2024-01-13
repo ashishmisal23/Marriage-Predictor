@@ -204,27 +204,17 @@ footer p:hover {
     .container {
         margin: 0 auto;
         max-width: 90%;
-
     }
 
-    .details {
-        flex-direction: column;
-        text-align: center;
-        max-width: 90%;
-    }
-
-    .details img {
-        margin-bottom: 0.5rem;
-        max-width: 3rem;
-        /* Adjust for smaller screens */
-    }
-
-    input {
-        width: 100%;
+    .button-container {
+        flex-direction: row; /* Reset to row for buttons on smaller screens */
     }
 
     button {
-        width: 100%;
+        width: 48%; /* Adjusted for smaller screens */
     }
 
+    button[type=reset] {
+        margin-top: 0; /* Reset margin-top for reset button on smaller screens */
+    }
 }

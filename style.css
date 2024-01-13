@@ -194,7 +194,7 @@ footer p:hover {
 }
 
 /* background blur class added for opening popup */
-.backgroundBlur{
+.backgroundBlur {
     filter: blur(10px);
 }
 
@@ -207,24 +207,29 @@ footer p:hover {
     }
 
     .button-container {
-        flex-direction: row; /* Reset to row for buttons on smaller screens */
+        flex-direction: row;
+        /* Reset to row for buttons on smaller screens */
     }
 
     button {
-        width: 48%; /* Adjusted for smaller screens */
+        width: 48%;
+        /* Adjusted for smaller screens */
     }
 
     button[type=reset] {
-        margin-top: 0; /* Reset margin-top for reset button on smaller screens */
+        margin-top: 0;
+        /* Reset margin-top for reset button on smaller screens */
     }
 
-    .popup{
-        height: 50%;
-        width: 50%;
+    .popup {
+        height: 100%;
+        width: 100%;
     }
 
     .popup-content {
-    font-size: 10px;
+        height: 50%;
+        width: 50%;
+        font-size: 10px;
     }
 
 

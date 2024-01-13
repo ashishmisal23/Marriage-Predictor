@@ -193,6 +193,10 @@ footer p:hover {
     cursor: pointer;
 }
 
+.backgroundBlur{
+    filter: blur(10px);
+}
+
 /* Responsive Styles */
 
 @media screen and (max-width: 768px) {

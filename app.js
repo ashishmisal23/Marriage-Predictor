@@ -91,7 +91,9 @@ function openPopup(message) {
 
     // Show the popup
     popup.style.display = 'block';
-
+    const backgroundBlur= document.querySelector(".container");
+    backgroundBlur.classList.add("backgroundBlur");
+    
     
 }
 
@@ -99,7 +101,9 @@ function openPopup(message) {
 function closePopup() {
     const popup = document.getElementById('customPopup');
     
-
+    
     // Hide the popup
     popup.style.display = 'none';
+    const backgroundBlur= document.querySelector(".container");
+    backgroundBlur.classList.remove("backgroundBlur")
 }

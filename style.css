@@ -193,6 +193,7 @@ footer p:hover {
     cursor: pointer;
 }
 
+/* background blur class added for opening popup */
 .backgroundBlur{
     filter: blur(10px);
 }

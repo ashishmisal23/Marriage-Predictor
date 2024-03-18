@@ -2,7 +2,7 @@
 
 This is a marriage predictor web application created for entertainment purposes. It utilizes HTML, CSS, and JavaScript to provide users with a fun way to predict their future marriage.
 
-Live at: [Marriage Predictor App](https://love-marriage-predictor.vercel.app/)
+Live at: [Marriage Predictor App](https://marriage-predictor-ashishmisal.vercel.app/)
 
 ### Features:
 
@@ -22,7 +22,7 @@ Live at: [Marriage Predictor App](https://love-marriage-predictor.vercel.app/)
 Ensure you have a web browser installed on your device.
 
 **Usage:**
-1. Visit the [Marriage Predictor App](https://love-marriage-predictor.vercel.app/) website.
+1. Visit the [Marriage Predictor App](https://marriage-predictor-ashishmisal.vercel.app/) website.
 2. Enter the required information as prompted.
 3. Click on the prediction button to generate your future marriage prediction.
 
